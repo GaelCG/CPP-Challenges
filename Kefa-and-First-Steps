@@ -10,17 +10,7 @@ int slove(int d, int arr[]){
      if(arr[i]>= arr[i-1]){
         cont++;
         maxi=max(maxi,cont);
-        /*
-        2>=1 1
-        maxi=(1,2)
-        2>=2 0
-        1>=2 0
-        3>= 1 2
-        3>= 4 3
 
-
-
-        */
      }
      else{
         cont = 1;
